@@ -1,0 +1,25 @@
+site_name: "Tema 4: Comunicación en Angular."
+
+theme:
+  name: material
+  palette:
+    primary: red
+    accent: deep-orange
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - toc.integrate  # Esto es lo que elimina la columna de la derecha
+
+plugins:
+  - search
+
+nav:
+  - Alba, Arturo y Óscar: index.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
