@@ -7,6 +7,7 @@
 
 !!! tip "Recordemos que..."
     El framework Angular sigue una **arquitectura por componentes**, dónde cada componente:
+    
     - Debe estar aislado.
     - Debe ser reutilizable en más de una ocasión.
     - Debe tener una responsabilidad clara.
