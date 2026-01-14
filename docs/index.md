@@ -54,15 +54,15 @@ Existen dos tipos de componentes, componentes hijos y componentes padres, según
     También llamado *componente de presentación*.
 
     **Características:**
-    - **Pasividad:** Recibe los datos ya procesados y listos para mostrar.
-    - **Enfoque visual:** Su única responsabilidad es pintar la interfaz (UI).
-    - **Aislamiento total:** No sabe de dónde vienen los datos ni quién los procesa.
-    - **Sin efectos secundarios:** No modifica directamente el estado global, solo avisa hacia arriba.
+    * **Pasividad:** Recibe los datos ya procesados y listos para mostrar.
+    * **Enfoque visual:** Su única responsabilidad es pintar la interfaz (UI).
+    * **Aislamiento total:** No sabe de dónde vienen los datos ni quién los procesa.
+    * **Sin efectos secundarios:** No modifica directamente el estado global, solo avisa hacia arriba.
 
     **Ejemplos típicos:**
-    - Tarjetas de usuario (`UserCard`).
-    - Botones personalizados.
-    - Elementos individuales de una lista.
+    * Tarjetas de usuario (`UserCard`).
+    * Botones personalizados.
+    * Elementos individuales de una lista.
 
 Esta separación hace la app **más fácil de mantener, testear y reutilizar**.
 
